@@ -444,8 +444,8 @@ main .file-wrapper .field-dropregion {
 
 /* Repeatable Styling */
 main .form form .repeat-actions {
-    grid-column: span 12;
-    order: 2;
+  display: flex;
+  gap: 10px;
 }
 
 main .form form .item-remove,
