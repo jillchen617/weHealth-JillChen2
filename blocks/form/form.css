@@ -444,8 +444,8 @@ main .file-wrapper .field-dropregion {
 
 /* Repeatable Styling */
 main .form form .repeat-actions {
-  display: flex;
-  gap: 10px;
+    grid-column: span 12;
+    order: 2;
 }
 
 main .form form .item-remove,
@@ -461,7 +461,7 @@ main .form form .item-remove {
 
 main .form form div[data-variant="addDeleteButtons"] .item-add,
 main .form form div[data-variant="addDeleteButtons"] .item-remove {
-    display: flex;
+    display: block;
 }
 
 /* Hide add button when add instance is disabled */
